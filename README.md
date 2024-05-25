@@ -28,7 +28,8 @@ This repository contains the necessary scripts and configurations to build, run,
    ```
 
 ## Scripts
-### build.sh {#build-sh}
+### build.sh
+<a name="build-sh"></a>
 ### docker-compose.yaml
 ### docker-exec.sh
 ### docker-log.sh
