@@ -6,7 +6,7 @@ This repository contains the necessary scripts and configurations to build, run,
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Scripts](#scripts)
-  - [build.sh](#build.sh)
+  - [build.sh](#build-sh)
   - [docker-compose.yaml](#docker-composeyaml)
   - [docker-exec.sh](#docker-execsh)
   - [docker-log.sh](#docker-logsh)
@@ -28,7 +28,7 @@ This repository contains the necessary scripts and configurations to build, run,
    ```
 
 ## Scripts
-### build.sh
+### build.sh {#build-sh}
 ### docker-compose.yaml
 ### docker-exec.sh
 ### docker-log.sh
