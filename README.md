@@ -6,7 +6,7 @@ This repository contains the necessary scripts and configurations to build, run,
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Scripts](#scripts)
-  - [build.sh](http://...#test)
+  - [build.sh](#build.sh)
   - [docker-compose.yaml](#docker-composeyaml)
   - [docker-exec.sh](#docker-execsh)
   - [docker-log.sh](#docker-logsh)
@@ -22,18 +22,19 @@ This repository contains the necessary scripts and configurations to build, run,
 - A GitHub Personal Access Token with `read:packages`, `write:packages`, `delete:packages`, `repo` scopes stored in `TOKEN.txt`.
 
 ## Usage
-1. **Build the Docker image:**
+**Build the Docker image:**
    ```bash
    ./build.sh
+   ```
 
 ## Scripts
-1. <h1 name="test"> build.sh <h1>
-2. docker-compose.yaml
-3. docker-exec.sh
-4. docker-log.sh
-5. docker-login.sh
-6. Dockerfile
-7. pull-master-image.sh
-8. run.sh
-9. setup_ros2_jazzy.sh
-10. TOKEN.txt
+### build.sh
+### docker-compose.yaml
+### docker-exec.sh
+### docker-log.sh
+### docker-login.sh
+### Dockerfile
+### pull-master-image.sh
+### run.sh
+### setup_ros2_jazzy.sh
+### TOKEN.txt
