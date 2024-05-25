@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  ros2_jazzy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - git_personal_token=${GIT_PERSONAL_TOKEN}
+    container_name: jazzy_container
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./workspace/src:/root/workspace/src
+      - ./.ros/log:/root/.ros/log
+    ports:
+      - "9091:9091"
+    network_mode: host
+    privileged: true
+
+networks:
+  default:
+    external:
+      name: host
